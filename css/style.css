@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a {
+    color: #fff;
+}
+a:hover, a:focus, a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+#header-section {
+    height: 810px;
+    background: url("../images/bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.logo {
+    padding-top: 80px;
+}
+
+.text-big {
+    padding-top: 200px;
+    font-family: Roboto-Thin;
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+
+.text-bold {
+    font-family: Roboto-Bold;
+}
+
+.text-menu {
+    padding-top: 50px;
+}
+
+.text-menu > li {
+    display: inline;
+    padding: 0 25px;
+}
+
+.text-menu > li > a {
+    font-family:Roboto;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #8fcbff;
+}
+
+.text-menu > li > .active {
+    color: #fff;
+    border-bottom: 3px solid #ff676d;
+    padding-bottom: 15px;
+}
+
+.arrow-red {
+    background: url("../images/arrowRed.png") no-repeat center;
+    background-size: cover;
+    height: 65px;
+    width: 65px;
+    position: absolute;
+    bottom:-35px;
+    left: calc(50% - 35px);
+    z-index: 10;
+}
+
+.checkbox-blue {
+    width: 20px;
+    height: 20px;
+    background: url("../images/checked.png") no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+footer {
+    background-color: #262626;
+    border-color: transparent;
+    border-radius: 0;
+}
+
+.footer-list {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: right;
+}
+
+.footer-text {
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    line-height: 150px;
+}
+
+.footer-list > li {
+    display: inline-block;
+}
+
+.footer-list > li > a {
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    line-height: 150px;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+.footer-list > li > a > img {
+    margin: 0 -10px;
+}
