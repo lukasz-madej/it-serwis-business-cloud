@@ -140,8 +140,21 @@ h2 {
     z-index: 10;
 }
 
+
+@media (max-width: 768px) {
+    .text-menu > li {
+        display: block;
+        padding: 25px;
+    }
+    .logo {
+        padding: 80px 25px 0 25px;
+        text-align: center;
+    }
+}
+
 .equal-section {
-    height: 810px;
+    min-height: 810px;
+    height: 100%;
 }
 
 .equal-section .img-wrapper {
@@ -159,6 +172,16 @@ h2 {
 
 .title-right {
     padding-left: 150px;
+    padding-right: 100px;
+}
+
+@media (max-width: 1200px) {
+    .title-right {
+        padding: 0 20px;
+    }
+    .title-blue {
+        padding-left: 20px;
+    }
 }
 
 #certified-section {
@@ -183,10 +206,32 @@ h2 {
 .certificate-img-wrapper {
     text-align: center;
     padding-top: 170px;
+    padding-bottom: 100px;
 }
 
 .certificate-img {
     padding-top: 30px;
+    width: 80%;
+}
+
+.certificate-img-big {
+    width: 60%;
+}
+
+
+@media (max-width: 1200px) {
+    .checkbox-blue {
+        padding-right: 25px;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .certificate-img-wrapper {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
 }
 
 .blue-section {
@@ -202,6 +247,12 @@ h2 {
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    .blue-section .box-wrapper {
+        padding: 50px 20px;
+    }
+}
+
 .blue-section .title {
     font-family:Roboto-Bold;
     font-size: 16px;
@@ -209,7 +260,7 @@ h2 {
     padding-top: 50px;
 }
 
-.blue-section .text-white {
+.text-white {
     color: #fff;
 }
 
@@ -275,6 +326,9 @@ button .button-img {
     margin: 10px 0;
 }
 
+
+/*Footer style*/
+
 footer {
     background-color: #262626;
     border-color: transparent;
@@ -307,4 +361,148 @@ footer {
 
 .footer-list > li > a > img {
     margin: 0 -10px;
+}
+
+
+/*Backup site style*/
+
+
+.padding-small {
+    padding-top: 140px;
+    padding-right: 100px;
+    padding-left: 10px;
+}
+
+@media (max-width: 992px) {
+    .padding-small {
+        padding: 50px 10px 10px 10px
+    }
+}
+
+.backup-second-section .box-wrapper {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.backup-second-section .title-black {
+    font-family:Roboto-Bold;
+    font-size: 16px;
+    line-height: 23px;
+    color: #0e1a35;
+    text-align: center;
+    padding: 10px 0 70px 0;
+}
+
+
+.backup-second-section li {
+    display: flex;
+    flex-direction: row;
+}
+
+.backup-second-section ul {
+    padding-top: 145px;
+    padding-bottom: 50px;
+    margin: 0 -15px;
+}
+
+.backup-second-section li .checkbox-blue {
+    padding-left: 0;
+}
+
+@media (max-width: 1200px) {
+    .backup-second-section ul {
+        padding-top: 145px;
+        padding-bottom: 50px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .backup-second-section ul {
+        padding: 25px 10px;
+    }
+}
+
+.blue-sky-section {
+    min-height: 810px;
+    height: 100%;
+    background: url("../images/bgBackup-blue.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.blue-sky-section ul {
+    padding-top: 215px;
+    padding-bottom: 100px;
+}
+
+.sky-section li {
+    display: flex;
+    flex-direction: row;
+}
+
+.sky-section li .checkbox-blue {
+    padding-left: 0;
+}
+
+.sky-section li .checkbox-blue img {
+    opacity: 0.2;
+}
+
+.blue-sky-section .text-wrapper-right {
+    padding-top: 215px;
+    padding-left: 70px;
+}
+
+.blue-sky-section .text-wrapper-right h2 {
+    padding-bottom: 15px;
+}
+
+
+@media (max-width: 992px) {
+    .sky-section ul {
+        padding: 50px 10px 50px 10px;
+    }
+    .sky-section .text-wrapper-right {
+        padding-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.red-sky-section {
+    min-height: 810px;
+    height: 100%;
+    background: url("../images/bgBackup-red.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.red-sky-section .text-wrapper-left {
+    padding-top: 100px;
+    padding-right: 30px;
+}
+
+.red-sky-section ul {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+}
+
+.red-sky-section .text-wrapper-left h2 {
+    padding-bottom: 15px;
+}
+
+@media (max-width: 992px) {
+    .red-sky-section ul {
+        padding: 50px 10px 100px 10px;
+    }
+    .red-sky-section .text-wrapper-left {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
 }
