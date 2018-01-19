@@ -506,3 +506,140 @@ footer {
         padding-left: 10px;
     }
 }
+
+#section-white {
+    min-height: 810px;
+    height: 100%;
+    position: relative;
+}
+
+#section-white .text-big {
+    line-height: 55px;
+    font-family:Roboto-Thin;
+    font-size: 44px;
+    color: #5284ff;
+    padding: 350px 20px 0 20px;
+}
+
+.contact-section {
+    min-height: 810px;
+    height: 100%;
+    background-color: #5284ff;
+}
+
+.contact-section .text-wrapper-left {
+    padding-top: 175px;
+}
+
+.contact-section .text-wrapper-left h2 {
+    padding-bottom: 25px;
+}
+
+@media (max-width: 992px) {
+    .contact-section .text-wrapper-left {
+        padding: 175px 10px 0 10px;
+    }
+}
+
+form {
+    width: 345px;
+    margin: 175px auto 100px auto;
+}
+
+@media (max-width: 992px) {
+    .wrapper {
+        padding: 0 5px;
+    }
+    form {
+        width: 300px;
+        margin: 45px auto 100px auto;
+    }
+}
+
+.group {
+    position: relative;
+    margin: 30px 0;
+}
+
+input {
+    background: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 300px;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+}
+
+@media (max-width: 992px) {
+    input {
+        width: 280px;
+    }
+}
+
+input:focus {
+    outline: none;
+}
+input:focus ~ label, input:valid ~ label {
+    top: -14px;
+    font-size: 12px;
+    color: #ff676d;
+}
+input:focus ~ .bar:before {
+    width: 300px;
+}
+
+input[type="password"] {
+    letter-spacing: 0.3em;
+}
+
+label {
+    color: #fff;
+    font-size: 15px;
+    font-family: Roboto-Light;
+    font-style: italic;
+    position: absolute;
+    pointer-events: none;
+    top: 5px;
+    -webkit-transition: 300ms ease all;
+    transition: 300ms ease all;
+}
+
+.bar {
+    position: relative;
+    display: block;
+    width: 300px;
+}
+.bar:before {
+    content: "";
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    position: absolute;
+    background: #ff676d;
+    -webkit-transition: 300ms ease all;
+    transition: 300ms ease all;
+    left: 0%;
+}
+
+form button {
+    width: 200px;
+    padding: 15px 0 15px 70px;
+    text-align: center;
+    font-family: Roboto-Bold;
+    font-size:18px;
+    border: 2px solid;
+    position: relative;margin-top: 65px;
+}
+
+form button img {
+    position: absolute;
+    right: 28px;
+    top: 19px;
+}
+
+form button:hover {
+    border-color: #ff676d;
+}
