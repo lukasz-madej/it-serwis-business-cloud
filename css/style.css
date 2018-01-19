@@ -74,7 +74,7 @@ h2 {
     color: #5284ff;
 }
 
-h4 {
+.text-normal {
     color: #000;
     font-family:Roboto-Light;
     font-size: 15px;
@@ -242,6 +242,37 @@ button .button-text {
 
 button .button-img {
     text-align: right;
+}
+
+#section-grey {
+    min-height: 570px;
+    height: 100%;
+}
+.text-grey {
+    padding-top: 200px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family:Roboto-Thin;
+    font-size: 22px;
+    color: #9c9c9c;
+    line-height: 27px;
+}
+
+#section-grey .img-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    opacity: 0.7;
+    padding-bottom: 150px;
+}
+
+#section-grey .img-wrapper .img-box {
+    width: 220px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
 }
 
 footer {
