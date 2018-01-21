@@ -769,6 +769,7 @@ form button:hover {
 
     #print .jumbo {
         background: url(../images/bg-print-no-arrow.jpg) no-repeat right center;
+        background-size: cover;
     }
 
     #print .jumbo .hp-partner {
