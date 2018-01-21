@@ -696,3 +696,93 @@ form button:hover {
         padding-bottom: 70px;
     }
 }
+
+/*Print site style*/
+#print h5 {
+    font-size: 26px;
+    line-height: 41px;
+    font-family: Roboto-Light, sans-serif;
+    color: #646464;
+}
+
+#print h5 em {
+    padding: 0 5px 3px;
+    color: #fff;
+    background-color: #5284ff;
+}
+
+#print form label {
+    color: #888;
+}
+
+#print form input {
+    border-color: #888;
+}
+
+#print form button {
+    background-color: #ff676d;
+}
+
+#print .jumbo {
+    height: 864px;
+    background: url(../images/bg-print.jpg) no-repeat right center;
+    background-size: cover;
+    position: relative;
+}
+
+#print .jumbo .hp-partner {
+    position: absolute;
+    right: -30px;
+    top: 70px;
+}
+
+#print .content {
+    padding-left: 105px;
+}
+
+#print .content form {
+    margin: 80px 0;
+}
+
+#print .content .logo {
+    padding-left: 0;
+}
+
+#print .content .slogan {
+    padding: 36px 0 25px
+}
+
+@media (max-width: 1200px) {
+    #print .content {
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    #print .content .logo {
+        text-align: center;
+    }
+
+    #print h2, #print h5 {
+        text-align: center;
+    }
+
+    #print .jumbo {
+        background: url(../images/bg-print-no-arrow.jpg) no-repeat right center;
+    }
+
+    #print .jumbo .hp-partner {
+        top: auto;
+        bottom: 0;
+        right: 50%;
+        transform: translate(50%, 50%);
+    }
+
+    #print .content {
+        padding: 0;
+    }
+
+    #print .content form {
+        margin: 80px auto;
+    }
+}
